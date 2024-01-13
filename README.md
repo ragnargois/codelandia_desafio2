@@ -1,7 +1,7 @@
 <h1 align="center">Codelândia | Desafio 02</h1>
 <br>
 <br>
-![image](src/preview/preview.png)
+![image](/src/preview/preview.png)
 
 ## 📃 Sobre
 **JordanShoes - Codelândia | Desafio 2** 
