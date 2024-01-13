@@ -1,4 +1,4 @@
-<h1 align="center">Codelândia | Desafio 02</h1>
+<h1 align="center">JordanShoes - Codelândia | Desafio 02</h1>
 
 ![image](/preview/preview.png)
 
