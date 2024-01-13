@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan Shoes - Codelândia | Desafio 02</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+
+</head>
+
+
+<body>
+  <header>
+    <div class="brand-top">
+       <p>Ganhe R$ 10,00 de desconto no frete</p>
+    </div>
+    <div class="brand">
+        <h2>JordanShoes</h2>
+        <img src="./src/img/logo-jordan.svg" alt="Jordan-shoe">
+    </div>
+ </header>
+ <section class="display-header">
+    <div>
+    <div class="content container">
+       <h1>A melhor loja de Jordan</h1>
+       <div class="type-ani">
+          <p id="typed"></p>
+       </div>
+       <div id="typed-strings">
+          <p>O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan.</p>
+       </div>
+    </div>
+    </div>
+ </section>
+ <main class="container">
+    <div class="heading">
+       <h1>Destaques</h1>
+       <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
+    </div>
+    <section>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.svg" alt="Jordan-shoe">
+            <div class="card-text">
+               <h3>Air Jordan 1 High Zoom CMFT Tropical</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 1.049,00</p>
+            </div>
+       </div>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-mid-bright-citrus-1-1000 1.svg" alt="Jordan-shoe">
+             <div class="card-text">
+                <h3>Air Jordan 1 Mid SE Bright Citrus</h3>
+                <span>Tênis Air Jordan</span>
+                <p>R$ 949,00</p>
+             </div>
+       </div>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-mid-dutch-green-1-400.svg" alt="Jordan-shoe">
+            <div class="card-text">
+                <h3>Air Jordan 1 Mid Dutch Green</h3>
+                <span>Tênis Air Jordan</span>
+                <p>R$ 899,90</p>
+            </div>
+       </div>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-mid-grey-camo-1-1000 1.svg" alt="Jordan-shoe">
+            <div class="card-text">
+               <h3>Air Jordan 1 Mid Grey Camo</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 999,00</p>
+            </div>
+       </div>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-mid-light-smoke-grey-gs-1-1000.svg" alt="Jordan-shoe">
+             <div class="card-text">
+               <h3>Air Jordan 1 Mid GS "Light Smoke Grey"</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 1.585,00</p>
+            </div>
+       </div>
+       <div class="card">
+          <img src="./src/img/air-jordan-1-retro-high-court-purple-w-1-400.svg" alt="Jordan-shoe">
+            <div class="card-text">
+               <h3>Air Jordan 1 Retro High Court Purple</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 1.350,00</p>
+            </div>
+       </div>
+       <div class="card">
+         <img src="./src/img/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.svg" alt="Jordan-shoe">
+           <div class="card-text">
+              <h3>Air Jordan 1 High Zoom CMFT Tropical</h3>
+              <span>Tênis Air Jordan</span>
+              <p>R$ 1.049,00</p>
+           </div>
+       </div>
+       <div class="card">
+         <img src="./src/img/air-jordan-1-mid-bright-citrus-1-1000 1.svg" alt="Jordan-shoe">
+            <div class="card-text">
+               <h3>Air Jordan 1 Mid SE Bright Citrus</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 949,00</p>
+            </div>
+       </div>
+       <div class="card">
+         <img src="./src/img/air-jordan-1-mid-dutch-green-1-400.svg" alt="Jordan-shoe">
+           <div class="card-text">
+               <h3>Air Jordan 1 Mid Dutch Green</h3>
+               <span>Tênis Air Jordan</span>
+               <p>R$ 899,90</p>
+           </div>
+      </div>
+    </section>
+ </main>
+ <footer>
+    <p>Codelândia Desafio 02 | &copy; Todos os direitos reservados - 2024 | UI - Alex Gois</p>
+ </footer>
+
+  <script src="./src/js/typed.js@2.0.12.js"></script>
+  <script src="./src/js/scrollreveal.js"></script>
+  <script>
+     var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings', typeSpeed: 30
+     })
+     const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+        ScrollReveal().reveal('.card', { delay: 400 });
+        ScrollReveal().reveal('.card img', { delay: 500 });
+  </script>
+
+</body>
+</html>
