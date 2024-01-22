@@ -8,7 +8,7 @@ Este é o meu segundo desafio de uma série de atividades na Comunidade Codelân
 [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=1883%3A2)
 
 Para ver os demais desafios, clique no link a seguir: <br>
-[Desafios](https:// /)
+[Desafios](https://alexgois.com.br/atividades)
 
 ---------------------------------------------------------------------------------------------------
 
